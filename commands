@@ -77,3 +77,14 @@ DefaultEndpointsProtocol=https;AccountName=securestorek;AccountKey=MtPc4XRZkKnQH
 httpapiek-bfb3bmf5cubefkhe.francecentral-01.azurewebsites.net
 
 Endpoint=sb://sbnamespaceek.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=emyIK69Uk/jnfNxiDEfk0Qty31UeRnCdj+ASbEEaODs=
+
+
+f4617f7d-e0b4-4314-9e4c-32a68e32c8cd
+
+smpapiek.azurewebsites.net
+
+Publish-AzWebApp -ResourceGroupName ek-test-2 -Name $webAppName -ArchivePath "/home/eugene/compressed_api.zip" -force
+
+Get-AzWebApp -ResourceGroupName ek-test-2 | Where-Object {$_.Name -like 'smpapi*'} | Select-Object -ExpandProperty Name
+$webAppName = (Get-AzWebApp -ResourceGroupName ek-test-2 | Where-Object {$_.Name -like 'smpapi*'})[0] | Select-Object -ExpandProperty Name
+Publish-AzWebApp -ResourceGroupName ek-test-2 -Name $webAppName -ArchivePath "/home/eugene/compressed_api.zip" -force
