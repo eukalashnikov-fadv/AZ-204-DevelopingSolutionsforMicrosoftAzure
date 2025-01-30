@@ -75,3 +75,5 @@ DefaultEndpointsProtocol=https;AccountName=securestorek;AccountKey=MtPc4XRZkKnQH
 
 
 httpapiek-bfb3bmf5cubefkhe.francecentral-01.azurewebsites.net
+
+Endpoint=sb://sbnamespaceek.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=emyIK69Uk/jnfNxiDEfk0Qty31UeRnCdj+ASbEEaODs=
