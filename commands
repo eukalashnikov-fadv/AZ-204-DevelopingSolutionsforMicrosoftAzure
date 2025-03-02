@@ -109,3 +109,34 @@ echo $webAppName
 Publish-AzWebApp -ResourceGroupName $RGName -Name $webAppName -ArchivePath "/home/eugene/api.zip" -force
 
 https://smpapiek-fgbac0hpekajf5bn.francecentral-01.azurewebsites.net/weatherforecast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --version
+az provider show --namespace Microsoft.CDN --query "registrationState"
+az provider register --namespace Microsoft.CDN
+
+https://contenthostek.blob.core.windows.net/media
+https://contenthostek.blob.core.windows.net/video
+
+https://cdnmediaek.azureedge.net/campus.jpg
+https://cdnmediaek.azureedge.net/conference.jpg
+https://cdnmediaek.azureedge.net/poster.jpg
+https://cdnvideoek.azureedge.net/welcome.mp4
