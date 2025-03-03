@@ -140,3 +140,29 @@ https://cdnmediaek.azureedge.net/campus.jpg
 https://cdnmediaek.azureedge.net/conference.jpg
 https://cdnmediaek.azureedge.net/poster.jpg
 https://cdnvideoek.azureedge.net/welcome.mp4
+
+
+
+
+
+
+
+
+
+
+
+Lab 13: Create and configure an Azure web app - not possible to implement
+
+
+
+
+
+
+
+
+acrsamek
+
+az acr build --registry acrsamek.azurecr.io --image webapp:latest .
+172.189.111.24:5151
+dns-name.dhfqgkesecdyh9e0.francecentral.azurecontainer.io:5151
+https://acasamek.blackpebble-6b394588.francecentral.azurecontainerapps.io
